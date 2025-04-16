@@ -118,14 +118,14 @@
             position: relative;
             border-radius: 10px;
             overflow: hidden;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+          /*  box-shadow: 0 10px 20px rgba(0,0,0,0.1); */
         }
         
         .about-img-container img {
             transition: transform 0.5s;
             aspect-ratio: 4 / 3;
             object-fit: fill;
-
+            min-height:280px;
         }
         
         .about-img-container:hover img {
